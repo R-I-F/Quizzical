@@ -1,0 +1,130 @@
+*, *::before, *::after{
+    box-sizing: border-box;    
+  }
+
+html, body {
+    margin: 0;
+    background: #F5F7FB;
+    color: #293264;
+    font-family: Inter;
+    user-select: none;
+}
+
+main{
+    margin: 40px 75px;
+    max-width:500px;
+}
+
+.horizontal-rule {
+    margin: 0;
+    height: 0.8px;
+    background-color: #DBDEF0;
+    border: none;
+}
+
+.start-page{
+    text-align: center;
+}
+
+/* QUESTIONS*/
+.component h2 {
+    font-family: Karla;
+    font-size: 16px;
+}
+/* QUESTIONS*/
+
+/* ANSWERS*/
+.answers-container{
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+}
+
+.answers{
+    padding: 4px 16px;
+    border-radius: 7.942px;
+    border: 1px solid #4D5B9E;
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.answers:hover ,.answers:focus {
+    background: #D6DBF5;
+}
+.clicked{
+    background: #D6DBF5;
+    border: 1px solid #4D5B9E;
+}
+
+.green{
+    background: #94D7A2;
+    border: 1px solid #94D7A2;
+}
+
+.red{
+    background: #F8BCBC;
+    border: 1px solid #F8BCBC;
+    opacity: 0.7;
+}
+/* ANSWERS*/
+
+/* BOTTOM CONTAINER */
+.bottom-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bottom-container p{
+    color: #293264;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* btns*/
+.btn-two{
+    display: block;
+    margin: 32px 0;
+    padding: 11px 22px;
+    background-color:#4D5B9E;
+    border: 1px #4D5B9E solid;
+    border-radius: 12px;
+    color: #F5F7FB;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.btn-one{
+    display: block;
+    margin: 32px auto;
+    padding: 11px 22px;
+    background-color:#4D5B9E;
+    border: 1px #4D5B9E solid;
+    border-radius: 12px;
+    color: #F5F7FB;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* .btn-one:active, 
+.btn-two:active 
+{
+    background-color:#606893;
+    border: 1px #4D5B9E solid;
+} */
+.btn-one:hover, 
+.btn-two:hover,
+.btn-one:focus, 
+.btn-two:focus{
+    cursor: pointer;
+    background-color:#606893;
+    border: 1px #4D5B9E solid;
+}
+
+/* btns*/
+
+/* BOTTOM CONTAINER */
