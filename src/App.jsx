@@ -45,7 +45,7 @@ const [checkAns, setCheckAns]= React.useState(false)
   
     }
     }, [isStart]) 
-  console.log(apiData)
+
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -138,7 +138,7 @@ const checkArr = apiData.map((item)=>item.selectedId === item.correctAnsId?true:
 const score = checkArr.reduce((count, currentItem)=>{
 return currentItem?count+1:count
 },0)
-console.log(isStart)
+
 if( isStart === true){
   return (
     <main>
